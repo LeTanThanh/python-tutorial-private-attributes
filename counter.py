@@ -1,12 +1,12 @@
 class Counter:
   def __init__(self):
-    self._counter = 0
+    self.__counter = 0
 
   def increment(self):
-    self._counter += 1
+    self.__counter += 1
 
   def reset(self):
-    self._counter = 0
+    self.__counter = 0
 
   def value(self):
-    return self._counter
+    return self.__counter

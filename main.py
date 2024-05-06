@@ -12,3 +12,12 @@ if __name__ == "__main__":
 
   # counter.counter = -999
   # print(counter.value())
+
+  # Name mangling with double underscores
+
+  counter = Counter()
+
+  # print(counter.__counter)
+  # AttributeError
+
+  print(counter._Counter__counter)
